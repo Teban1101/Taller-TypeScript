@@ -1,0 +1,16 @@
+{
+  "name": "taller-typescript",
+  "version": "1.0.0",
+  "description": "Aplicación para gestionar series de televisión",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && npx http-server . -p 8080",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "http-server": "^14.1.1"
+  },
+  "type": "module"
+}

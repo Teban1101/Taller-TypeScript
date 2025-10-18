@@ -4,5 +4,7 @@ export declare class SeriesTable {
     constructor(series: Serie[]);
     renderTable(): string;
     private calculateSeasonsAverage;
+    getSerieById(id: number): Serie | undefined;
+    renderSerieDetail(serie: Serie): string;
 }
 //# sourceMappingURL=main.d.ts.map
